@@ -54,7 +54,8 @@ public class SecurityConfig {
                                 "/http://192.168.15.26:8000/**",
                                 "/http://192.168.15.26:8061/**",
                                 "/https://gallant-spirit-production.up.railway.app/api/payhero/callback",
-                                "/https://gallant-spirit-production.up.railway.app/**"
+                                "/https://gallant-spirit-production.up.railway.app/**",
+                                "/api/payhero/**"
                         ).permitAll()
 
                         // 🔐 SYSTEM USERS
@@ -96,7 +97,8 @@ public class SecurityConfig {
                 "http://127.0.0.1:4040",
                 "http://192.168.15.26:8000",
                 "https://gritfiber.netlify.app",
-                "https://gallant-spirit-production.up.railway.app/api/payhero/callback"
+                "https://gallant-spirit-production.up.railway.app/api/payhero/callback",
+                "https://gallant-spirit-production.up.railway.app"
 
         ));
 
